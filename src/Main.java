@@ -8,19 +8,15 @@ public class Main {
         int bonusPerHundred = 1;
         int bonus = 0;
 
-        if (amount > bonusThreshold)
-        {
+        if (amount > bonusThreshold) {
             bonus = (amount / 100 * bonusPerHundred);
 
         }
         int finalBalance = balance + amount + bonus;
 
-        System.out.println("итоговая сумма на счету " + finalBalance + " RUB" );
+        System.out.println("итоговая сумма на счету " + finalBalance + " RUB");
         System.out.println("колличество бонусных рублей " + bonus + " RUB");
 
 
-
-
-
-        }
     }
+}
